@@ -1,0 +1,31 @@
+.principal__imagem {
+   margin-top: 30px;
+   width: 30%;
+}
+
+
+.principal__imagem {
+   position: absolute;
+   top: 150px;
+
+
+ }
+ 
+
+
+.principal__imagem02 {
+    background-repeat: no-repeat;
+    background-image: url(/img/Ellipse\ 2.png);
+    
+}
+
+
+.principal__imagem02 {
+    position: absolute;
+    width: 466px;
+    height: 266px;
+    left: -100px;
+    top: 706px;
+   
+
+}

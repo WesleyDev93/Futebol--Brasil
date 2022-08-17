@@ -1,0 +1,14 @@
+.botao__pause {
+    background-image: url(/img/Player/Pause.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    
+}
+
+
+.botao__pause {
+    margin: 0 15px 0 20px;
+}
+
+

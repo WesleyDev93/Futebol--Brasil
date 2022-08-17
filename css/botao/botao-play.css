@@ -1,0 +1,12 @@
+.botao__play {
+    background-image: url(/img/Player/Play.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    
+}
+
+
+.botao__play {
+    margin: 0 15px 0 25px;
+}

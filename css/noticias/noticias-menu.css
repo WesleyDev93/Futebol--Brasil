@@ -1,0 +1,11 @@
+.noticias__menu {
+   display: flex;
+   justify-content: center;
+}
+
+
+.noticias__menu {
+   left: 180px;
+   position: relative;
+   top: 300px;
+}

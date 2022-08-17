@@ -1,0 +1,20 @@
+.menu__lista {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.menu__lista {
+    bottom: 55px;
+    position: relative;
+    left: 100px;
+
+}
+
+
+.menu__lista {
+    color: #ffffff;
+    font-family: 'DynaPuff', cursive;
+    font-size: 1.1rem;
+}
