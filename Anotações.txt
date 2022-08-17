@@ -9,3 +9,79 @@ var partidasVencidas = document.querySelector (".info-partidasvencidas");
     var vitorias = document.querySelector ('.info-pontosdejogos');
     var resultado = (partidas*3);
       vitorias.textContent = resultado;
+
+
+ var partidasVencidas = document.querySelectorAll (".jogador");  
+     
+     
+      
+     
+    for (let index = 0; index < partidasVencidas.length; index++) {
+          
+        
+         var partidas = partidasVencidas[index];
+
+
+
+         var dadosPartidas = partidas.querySelector ('.info-vitorias');
+         var numeroPartidas = dadosPartidas.textContent;
+         
+             
+
+         var pontosfixos = partidas.querySelector ('.info-pontosporvitoria');
+         var pontosporvitoria = pontosfixos.textContent;
+
+         
+
+         var vitorias = partidas.querySelector ('.info-pontos');
+         
+         
+        
+         var resultado = (pontosporvitoria * numeroPartidas);
+        
+           vitorias.textContent = resultado;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      testes de Aplicação
+
+
+
+      <tr class="jogador">
+							<td class="info-nome">Exemplo</td>
+							<td class="info-vitorias">7</td>
+							<td class="info-pontosporvitoria">3</td>
+							<td class="info-gols">10</td>
+							<td class="info-pontos"></td>
+							<td class="info-saldogols"></td>
+						</tr>
+
+						<tr class="jogador">
+							<td class="info-nome">Paulo</td>
+							<td class="info-vitorias">7</td>
+							<td class="info-pontosporvitoria">3</td>
+							<td class="info-gols">10</td>
+							<td class="info-pontos"></td>
+							<td class="info-saldogols"></td>
+                       
+						</tr>
+
+
+
+
+
