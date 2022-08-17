@@ -1,3 +1,6 @@
+Aplicação anterior nao serviu - toda logica refeita.
+
+
 var partidasVencidas = document.querySelector (".info-partidasvencidas");  
     var partidas = partidasVencidas.textContent;
 
