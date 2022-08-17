@@ -1,21 +1,22 @@
-//var Jogadores = document.querySelector (".tabela__jogador");
- 
+var botaoAdicionar = document.querySelector ('#adicionar-jogador');
 
 
-//var infoNome = document.querySelector (".info-nome");       
-    //var nome = infoNome.textContent;
+console.log (botaoAdicionar);
 
-//var golsMarcados = document.querySelector (".info-golsmarcados");  
-    //var gols = golsMarcados.textContent;
-
-//var partidasVencidas = document.querySelector (".info-partidasvencidas");  
-    //var partidas = partidasVencidas.textContent;
-
-    
+    botaoAdicionar.addEventListener ('click' ,function () {
+        event.preventDefault();
+        console.log ('clicado');
+    });
 
 
 
+    var botaoAdicionar = document.querySelector ('#apagar-jogador');
 
+
+    botaoAdicionar.addEventListener ('click' ,function () {
+        event.preventDefault();
+        console.log ('clicado 456');
+    });
 
 
 
