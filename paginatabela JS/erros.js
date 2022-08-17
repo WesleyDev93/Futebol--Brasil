@@ -4,11 +4,6 @@
  var partidasEhValida = true;
  var golsEhValido = true;
  
-
-
-
- 
- function erros() {
        
  
 if (partidas <= -0 || gols <= -0) {
@@ -18,8 +13,8 @@ if (partidas <= -0 || gols <= -0) {
         partidasVencidas.style.color = 'red';
         partidasEhValida =false;
         golsEhValido =false;
- }
-
+ 
+}
 
 
  if (partidas >= 1000 || gols >= 1000) {
@@ -30,7 +25,7 @@ if (partidas <= -0 || gols <= -0) {
     partidasEhValida =false;
     golsEhValido =false;
 }
- };
+ 
 
 
 
