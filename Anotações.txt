@@ -1,0 +1,8 @@
+var partidasVencidas = document.querySelector (".info-partidasvencidas");  
+    var partidas = partidasVencidas.textContent;
+
+    
+
+    var vitorias = document.querySelector ('.info-pontosdejogos');
+    var resultado = (partidas*3);
+      vitorias.textContent = resultado;
