@@ -9,25 +9,36 @@ var botaoAdicionar = document.querySelector ('#adicionar-jogador');
         var vitorias = form.vitorias.value;
         var pontosvitoria = form.pontosvitoria.value;
         var  gols = form.gols.value;
-     
+         var pontos = resultado;
+         var saldogols = gols;
+
+
         var jogadorTr = document.createElement ("tr");
 
         var nomeTd = document.createElement ("td");
         var vitoriasTd = document.createElement ("td");
         var pontosvitoriaTd = document.createElement ("td");
         var golsTd = document.createElement ("td");
+        var pontosTd = document.createElement ("td");
+        var saldogolsTd = document.createElement ("td");
 
 
         nomeTd.textContent = nome;
         vitoriasTd.textContent = vitorias;
         pontosvitoriaTd.textContent = pontosvitoria;
         golsTd.textContent = gols;
+        pontosTd.textContent = pontos;
+        saldogolsTd.textContent = saldogols;
 
 
         jogadorTr.appendChild (nomeTd);
         jogadorTr.appendChild (vitoriasTd);
         jogadorTr.appendChild (pontosvitoriaTd);
         jogadorTr.appendChild (golsTd);
+
+
+        jogadorTr.appendChild (pontosTd);
+        jogadorTr.appendChild (saldogolsTd);
 
 
         var tabelaTBody = document.querySelector ('.tabela-jogador');

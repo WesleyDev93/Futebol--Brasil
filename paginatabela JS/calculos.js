@@ -1,8 +1,12 @@
 
      // calculo de partidas 
-     
+
+  
+
      var partidasVencidas = document.querySelectorAll (".jogador");  
      
+     
+      
      
     for (let index = 0; index < partidasVencidas.length; index++) {
           
@@ -40,14 +44,17 @@
          repasseGols.textContent = gols;
             
          
-      
-      
-     }
+        }
+ 
+     
 
 
-      
+
+
+        
+
     
-
+    
 
     
 
