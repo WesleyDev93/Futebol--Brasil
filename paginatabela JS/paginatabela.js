@@ -75,7 +75,7 @@ var botaoAdicionar = document.querySelector ('#adicionar-jogador');
       
 
       tabela.addEventListener ('dblclick', function (event) {
-        event.target.remove();
+        event.target.parentNode.remove();
       });
 
 
