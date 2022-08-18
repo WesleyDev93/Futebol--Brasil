@@ -1,0 +1,16 @@
+.body2 {
+    background: linear-gradient( green , red );
+}
+
+.body3 {
+    background: linear-gradient(blue , white, red);
+}
+
+
+
+.alterarEstilo {
+    display: none;
+}
+
+
+
