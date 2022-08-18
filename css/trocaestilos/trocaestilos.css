@@ -1,3 +1,7 @@
+.body1 {
+    background: linear-gradient( blue, green ,yellow);
+}
+
 .body2 {
     background: linear-gradient( green , red );
 }
@@ -12,5 +16,30 @@
     display: none;
 }
 
+.alterarEstilo02 {
+    display: none;
+}
 
 
+.franca {
+    position: relative;
+    left: 400px;
+    font-size:  2rem;
+
+}
+
+
+.portugual {
+    position: relative;
+    left: 400px;
+    font-size:  2rem;
+
+}
+
+
+.brasil {
+    position: relative;
+    left: 400px;
+    font-size:  2rem;
+
+}
