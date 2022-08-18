@@ -57,12 +57,26 @@ var botaoAdicionar = document.querySelector ('#adicionar-jogador');
     var botaoAdicionar = document.querySelector ('#apagar-jogador');
 
 
-    botaoAdicionar.addEventListener ('click' ,function () {
-        event.preventDefault();
-        console.log ('clicado 456');
-    });
+    
+
+        //var jogador = document.querySelectorAll ('.jogador');
+
+       // jogador.forEach (function (jogador) {
+              // jogador.addEventListener ('dblclick', function () {
+               //         this.remove();
+             //  })
+      //  });
+    
 
 
+
+      var jogador = document.querySelectorAll ('.jogador');
+      var tabela = document.querySelector ('table');
+      
+
+      tabela.addEventListener ('dblclick', function (event) {
+        event.target.remove();
+      });
 
 
 
