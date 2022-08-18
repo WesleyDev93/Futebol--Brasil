@@ -9,17 +9,20 @@ var botaoAdicionar = document.querySelector ('#adicionar-jogador');
         var vitorias = form.vitorias.value;
         var pontosvitoria = form.pontosvitoria.value;
         var  gols = form.gols.value;
-         var pontos = resultado;
-         var saldogols = gols;
+        var pontos =  (vitorias * pontosvitoria);
+        var saldogols = gols;
 
 
         var jogadorTr = document.createElement ("tr");
 
         var nomeTd = document.createElement ("td");
         var vitoriasTd = document.createElement ("td");
+           vitorias.id = 'vitorias-info';
         var pontosvitoriaTd = document.createElement ("td");
+          pontosvitoriaTd.id = 'pontosporvitorias-info';
         var golsTd = document.createElement ("td");
         var pontosTd = document.createElement ("td");
+         pontosTd.id = 'somapontos';
         var saldogolsTd = document.createElement ("td");
 
 
@@ -29,6 +32,9 @@ var botaoAdicionar = document.querySelector ('#adicionar-jogador');
         golsTd.textContent = gols;
         pontosTd.textContent = pontos;
         saldogolsTd.textContent = saldogols;
+
+
+
 
 
         jogadorTr.appendChild (nomeTd);

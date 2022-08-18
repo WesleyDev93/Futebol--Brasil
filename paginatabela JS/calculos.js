@@ -15,17 +15,17 @@
 
 
 
-         var dadosPartidas = partidas.querySelector ('.info-vitorias');
+         var dadosPartidas = partidas.querySelector ('#vitorias-info');
          var numeroPartidas = dadosPartidas.textContent;
          
              
 
-         var pontosfixos = partidas.querySelector ('.info-pontosporvitoria');
+         var pontosfixos = partidas.querySelector ('#pontosporvitorias-info');
          var pontosporvitoria = pontosfixos.textContent;
 
          
 
-         var vitorias = partidas.querySelector ('.info-pontos');
+         var vitorias = partidas.querySelector ('#somapontos');
          
          
         
@@ -49,6 +49,15 @@
      
 
 
+
+
+
+        
+        
+
+       
+
+        
 
 
         
