@@ -43,21 +43,6 @@ var partidasVencidas = document.querySelector (".info-partidasvencidas");
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       testes de Aplicação
 
 
@@ -85,3 +70,8 @@ var partidasVencidas = document.querySelector (".info-partidasvencidas");
 
 
 
+css 
+
+*{
+	box-sizing: border-box;
+ }
