@@ -1,6 +1,4 @@
-*{
-	box-sizing: border-box;
- }
+
 
 body{
 	background: linear-gradient(90deg, #B8C2D1 , green 90%);
@@ -153,6 +151,37 @@ button[disabled=disabled], button:disabled {
 	margin-bottom: 10px;
 }
 
+#form-adiciona {
+	display: flex;
+	flex-direction: column;
+	margin-left: 25px;
+}
+
+
 .invisivel {
 	display: none;
 }
+
+
+.imagem {
+
+	margin-top: 30px;
+	width: 20%;
+}
+
+
+
+.imagem {
+	left: 10px;
+	position: absolute;
+	top: 150px;
+
+ 
+  }
+
+  .aviso {
+    color: black;
+	font-size: 1.3rem;
+	margin-bottom: 15px;
+
+  }
