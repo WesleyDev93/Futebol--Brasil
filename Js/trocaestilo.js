@@ -23,7 +23,7 @@ var cr7 = document.querySelector ('.alterarEstilo02');
 
 // frança
 
-botaoFranca.addEventListener ('click' ,function () {
+botaoFranca.addEventListener ('click' ,function franca () {
 
    html.classList.add ('body3');
  
@@ -32,13 +32,13 @@ botaoFranca.addEventListener ('click' ,function () {
 
    neymar.style.display = 'none';
 
-   
+  
 });
 
 
 //portugual
 
-botaoPortugual.addEventListener ('click' ,function () {
+botaoPortugual.addEventListener ('click' ,function portugual () {
 
     html.classList.add ('body2');
   
@@ -53,7 +53,7 @@ botaoPortugual.addEventListener ('click' ,function () {
 
 // brasil
 
- botaoBrasil.addEventListener ('click' ,function () {
+ botaoBrasil.addEventListener ('click' ,function brasil () {
 
     html.classList.add ('body1');
 
@@ -61,6 +61,7 @@ botaoPortugual.addEventListener ('click' ,function () {
     neymar.style.display = 'block';
     mbappé.style.display = 'none';
     cr7.style.display = 'none';
- 
+   
+  
     
  });

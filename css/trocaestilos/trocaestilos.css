@@ -21,25 +21,54 @@
 }
 
 
+
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 150px;
+}
+
+
+
 .franca {
+    background: linear-gradient(blue , white, red);
+    border:  1px solid white;
+    border-radius: 15px;
+    background;
+    bottom: 310px;
+    font-size:  1.5rem;
     position: relative;
     left: 400px;
-    font-size:  2rem;
+    width: 25%;
 
 }
+
+
 
 
 .portugual {
+    background: linear-gradient( green , red );
+    border:  1px solid white;
+    border-radius: 15px;
+    bottom: 310px;
+    font-size:  1.5rem;
     position: relative;
     left: 400px;
-    font-size:  2rem;
+    width: 25%;
 
 }
 
 
+
+
 .brasil {
+    background: linear-gradient( blue, green ,yellow);
+    border:  1px solid white;
+    border-radius: 15px;
+    bottom: 310px;
+    font-size:  1.5rem;
     position: relative;
     left: 400px;
-    font-size:  2rem;
-
+    width: 25%;
 }
