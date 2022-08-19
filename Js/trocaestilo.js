@@ -23,6 +23,11 @@ var cr7 = document.querySelector ('.alterarEstilo02');
 
 // frança
 
+
+
+   
+
+
 botaoFranca.addEventListener ('click' ,function franca () {
 
    html.classList.add ('body3');
@@ -32,9 +37,44 @@ botaoFranca.addEventListener ('click' ,function franca () {
 
    neymar.style.display = 'none';
 
-  
-});
+    //titulo
+   var tituloLogo = document.querySelector ('.titulo__cabecalho');
+     tituloLogo.textContent = 'Football Français';
 
+
+     //menu
+     var noticias = document.querySelector ('#noticias');
+     noticias.textContent = 'Nouvelles';
+
+     var placares = document.querySelector ('#placares');
+     placares.textContent = 'Tableaux de bord';
+
+     var copaDoMundo = document.querySelector ('#copadomundo');
+     copaDoMundo.textContent = 'Coupe du monde';
+
+     var selecoes = document.querySelector ('#selecoes');
+     selecoes.textContent = 'Sélections';
+     
+    //Sub Titulos
+
+    var subTitulo = document.querySelector ('.principal__titulo');
+    subTitulo.textContent = 'Recevez des mises à jour sur le football';
+
+    var subTitulo02 = document.querySelector ('.principal__titulo02');
+     subTitulo02.textContent = 'Analyse groupe par groupe pour Qatar 2022';
+
+     //botoes
+
+     var inscrevase = document.querySelector ('.botao__subscribe');
+     inscrevase.textContent = 'Sinscrire';
+
+     var subTitulo02 = document.querySelector ('#redireciona');
+     subTitulo02.textContent = 'créez votre tableau';
+
+
+    
+});
+   
 
 //portugual
 
