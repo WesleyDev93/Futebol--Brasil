@@ -6,7 +6,7 @@ estilização em CSS com desafio de implementações grandes em JS.
 
 Projeto possuiu 2 paginas HTMl - uma para planilha de jogos e a principal com botoes que mudam o estilo da pagina em JS
 
-
+Projeto tambem muda a lingua quando em Francês.
 
 Pedaço do codigo em HTMl 
 
